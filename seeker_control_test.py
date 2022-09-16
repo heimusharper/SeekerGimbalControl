@@ -229,7 +229,7 @@ class RunApp(QtWidgets.QMainWindow, view.Ui_MainWindow):
         PITCH = self.pitchSpeed
         print("angles " + str(YAW) + " " + str(PITCH))
         
-        #self.doGimbalSpeed(ROLL, PITCH, YAW)
+        self.doGimbalSpeed(ROLL, PITCH, YAW)
 
     # speed update
     def updateGlobalSpeed(self):
